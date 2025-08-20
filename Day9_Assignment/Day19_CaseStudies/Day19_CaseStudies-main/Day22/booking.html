@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bliss - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Travel Bliss</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<form>
+    <h2>Book Your Trip</h2>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" required>
+    <label>Travel Package</label>
+    <label>
+        <input type="radio" name="package" value="beach" required title="Select Beach package"> Beach
+    </label>
+    <label>
+        <input type="radio" name="package" value="mountain" title="Select Mountain package"> Mountain
+    </label>
+    <label>
+        <input type="radio" name="package" value="city" title="Select City package"> City
+    </label>
+    <label>Extras</label>
+    <label>
+        <input type="checkbox" name="extras" value="guide" title="Add Tour Guide"> Tour Guide
+    </label>
+    <label>
+        <input type="checkbox" name="extras" value="meals" title="Add Meals Included"> Meals Included
+    </label>
+    <label>
+        <input type="checkbox" name="extras" value="insurance" title="Add Travel Insurance"> Travel Insurance
+    </label>
+    <label for="date">Travel Date</label>
+    <input type="date" id="date" required>
+    <button type="submit">Submit Booking</button>
+</form>
+<footer>
+    <p>&copy; 2025 Travel Bliss. All rights reserved.</p>
+</footer>
+</body>
+</html>

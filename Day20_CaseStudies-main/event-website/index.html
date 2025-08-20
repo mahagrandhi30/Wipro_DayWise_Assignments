@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Event</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bg-primary text-white text-center py-4">
+    <h1 class="fw-bold">Community Fun Day 2025</h1>
+    <p class="lead">Join us for a day full of activities, music, and fun!</p>
+</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Event</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container my-5">
+<section class="mb-5 text-center">
+    <h2 class="text-primary mb-3">Promotional Video</h2>
+   <video width="80%" controls autoplay muted loop playsinline>
+    <source src="assets/promo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+    <p class="small text-muted">*Video is muted by default to allow autoplay.*</p>
+</section>
+    <section class="mb-5">
+        <h2 class="text-primary mb-3">Event Schedule</h2>
+        <table class="table table-striped table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Main Stage</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>Fun Games</td>
+                    <td>Playground</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch & Networking</td>
+                    <td>Food Court</td>
+                </tr>
+                <tr>
+                    <td>3:00 PM</td>
+                    <td>Music & Dance Show</td>
+                    <td>Main Stage</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="mb-5">
+        <h2 class="text-primary mb-3">Activities</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Face Painting</li>
+            <li class="list-group-item">Treasure Hunt</li>
+            <li class="list-group-item">Live Music</li>
+            <li class="list-group-item">Food Stalls</li>
+            <li class="list-group-item">Art & Craft Zone</li>
+        </ul>
+    </section>
+<section class="mb-5 text-center">
+    <h2 class="text-primary mb-3">Event Theme Song</h2>
+    <audio controls autoplay loop>
+        <source src="assets/theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p class="small text-muted">*Autoplay may require user interaction in some browsers.*</p>
+</section>
+
+</main>
+<footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 Community Fun Day. All rights reserved.</p>
+</footer>
+</body>
+</html>
