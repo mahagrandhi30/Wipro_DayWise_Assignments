@@ -1,0 +1,27 @@
+.nursery-container {
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nursery-container h2 {
+  color: darkgreen;
+}
+
+.nursery-container p {
+  color: #333;
+}
+
+.nursery-container select {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.nursery-container ul {
+  list-style-type: square;
+  color: darkgreen;
+  font-weight: bold;
+}

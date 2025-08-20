@@ -1,0 +1,29 @@
+.student-container {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: black;
+  color: white;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
